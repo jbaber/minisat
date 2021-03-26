@@ -1,0 +1,11 @@
+c The rules for XOR
+c
+c `p cnf 2 2` below means "cnf" format,  2 variables, 2 clauses
+p cnf 2 2
+c
+c To run against this file:
+c
+c     $ minisat examples/xor.cnf output_filename
+c
+1 2 0
+-1 -2 0
